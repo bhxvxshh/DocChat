@@ -19,3 +19,7 @@ FAISS: Similarity search indexing
 Google Generative AI: For embeddings and question answering
 Dotenv: Manage environment variables (API keys)
 This app helps users query PDFs intuitively, with the power of AI, to retrieve detailed information without manually sifting through documents.
+
+## Configuration
+
+Secrets are read from environment variables (or a local `.env`, which is git-ignored). Copy `.env.example` to `.env` and fill in: GOOGLE_API_KEY.
